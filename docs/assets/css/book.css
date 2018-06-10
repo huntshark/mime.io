@@ -1,0 +1,94 @@
+
+/* books page banner */
+.dot-books-page .dot-banner {
+  padding-top: 55px;
+  padding-bottom: 15px;
+  min-height: 48px;
+  color: rgba(255, 255, 255, 1);
+}
+@media (min-width: 768px) {
+  .dot-books-page .dot-banner {
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+}
+
+.article-books {
+  padding-bottom: 91px;
+}
+
+.dot-book-card {
+  margin-top: 32px;
+}
+@media (min-width: 768px) {
+  .dot-book-card {
+    margin-top: 48px;
+  }
+}
+
+.dot-book-card .book-name {
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+.dot-book-card .book-name > span:first-child {
+  margin-right: 5px;
+  font-size: 1.125rem;
+}
+.dot-book-card .book-name span.fa-star,
+.dot-book-card .book-name span.fa-star-half-o {
+  font-size: 0.85rem;
+  color: #0f88eb;
+}
+
+.dot-book-card .dot-book-series {
+  padding-left: 20px;
+  margin: 0;
+}
+.dot-book-card .dot-book-series li {
+  margin: 15px 0;
+}
+.dot-book-card .dot-book-series li:first-child {
+  margin-top: 0;
+}
+.dot-book-card .dot-book-series li:last-child {
+  margin-bottom: 0;
+}
+.dot-book-card .dot-book-series li.active {
+  color: #0f88eb;
+  font-weight: bold;
+}
+.dot-book-card .dot-book-series li.complete {
+  color: #333;
+}
+.dot-book-card .dot-book-series li.prepare {
+  color: #999;
+}
+
+.dot-book-card .dot-book-series li span {
+  font-size: 0.9rem;
+}
+.dot-book-card .dot-book-series li span.serie-bracket,
+.dot-book-card .dot-book-series li span.serie-redate,
+.dot-book-card .dot-book-series li span.serie-status {
+  font-size: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .dot-book-card .book-name > span:first-child {
+    margin-right: 10px;
+    font-size: 1.25rem;
+  }
+  .dot-book-card .book-name span.fa-star,
+  .dot-book-card .book-name span.fa-star-half-o {
+    font-size: 0.95rem;
+  }
+
+  .dot-book-card .dot-book-series li span {
+    font-size: 1rem;
+  }
+  .dot-book-card .dot-book-series li span.serie-bracket,
+  .dot-book-card .dot-book-series li span.serie-redate,
+  .dot-book-card .dot-book-series li span.serie-status {
+    font-size: .95rem;
+  }
+}

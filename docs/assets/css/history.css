@@ -30,7 +30,7 @@
   height: 100%;
   width: 4px;
   border-radius: 2px;
-  background: rgb(15, 136, 235, 0.5);
+  background: rgba(15, 136, 235, 0.5);
 }
 @media (min-width: 768px) {
   .dot-history-timeline {
@@ -64,7 +64,7 @@
   left: 10px;
   width: 20px;
   height: 20px;
-  background: rgb(15, 136, 235, 1);
+  background: rgba(15, 136, 235, 1);
   border-radius: 50%;
   box-shadow: 0 0 0 4px rgba(215, 228, 237, 1), inset 0 2px 0 rgba(215, 228, 237, 0.08), 0 3px 0 4px rgba(215, 228, 237, 0.05);
 }

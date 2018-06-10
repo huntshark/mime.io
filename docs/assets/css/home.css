@@ -1,0 +1,143 @@
+
+/* article card */
+.dot-article-card {
+  padding: 20px 0;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eee;
+}
+.dot-article-card header > a {
+  display: inline-block;
+  padding: 12px 0;
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: #0f88eb;
+}
+.dot-article-card header > a:hover {
+  color: #0f88eb;
+}
+
+/* article card section */
+.dot-article-card section {
+  line-height: 1.75rem;
+  font-size: 1rem;
+}
+
+/* article card categories|tags|info */
+.dot-article-card .dot-article-card-info,
+.dot-article-card .dot-article-card-categories,
+.dot-article-card .dot-article-card-tags > div {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: #aaa;
+}
+.dot-article-card .dot-article-card-info {
+  margin-bottom: 15px;
+}
+.dot-article-card .dot-article-card-categories {
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.dot-article-card .dot-article-card-tags {
+  margin-top: 15px;
+}
+
+.dot-article-card .dot-article-card-info > span:nth-child(2n+1),
+.dot-article-card .dot-article-card-categories > span:nth-child(2n+1),
+.dot-article-card .dot-article-card-tags > div > span:nth-child(2n+1) {
+  margin-left: 10px;
+}
+.dot-article-card .dot-article-card-info > span:first-child,
+.dot-article-card .dot-article-card-categories > span:first-child,
+.dot-article-card .dot-article-card-tags > div  > span:first-child {
+  margin-left: 0;
+}
+
+.dot-article-card .dot-article-card-info a,
+.dot-article-card .dot-article-card-categories a,
+.dot-article-card .dot-article-card-tags a {
+  text-decoration: none;
+  color: #aaa;
+}
+.dot-article-card .dot-article-card-info a:hover,
+.dot-article-card .dot-article-card-categories a:hover,
+.dot-article-card .dot-article-card-tags a:hover {
+  color: #0f88eb;
+  text-decoration: underline;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+/* article card horizontal line */
+.dot-article-card .dot-dashed-horizontal-line {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-top: 1px dashed #eee;
+}
+.dot-article-card .dot-dashed-horizontal-line.top {
+  margin-bottom: 15px;
+}
+.dot-article-card .dot-dashed-horizontal-line.bottom {
+  margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+  .dot-article-card header > a {
+    font-size: 1.5rem;
+  }
+  .dot-article-card .dot-article-card-info,
+  .dot-article-card .dot-article-card-categories,
+  .dot-article-card .dot-article-card-tags > div {
+    font-size: 0.875rem;
+  }
+}
+
+/* website paginate */
+.article-card-pagination-container {
+  margin-top: 30px;
+}
+.dot-article-card-pagination {
+  margin: 34px 0px 20px 0;
+  text-align: center;
+}
+.dot-article-card-pagination > ul {
+  display: inline-block;
+  border-radius: 4px;
+}
+.dot-article-card-pagination > ul li {
+  float: left;
+  text-align: center;
+}
+.dot-article-card-pagination > ul li a {
+  padding: 6px 12px;
+  margin-left: -1px;
+  border: 1px solid #ddd;
+  color: #0f88eb;
+}
+.dot-article-card-pagination > ul li:first-child a {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.dot-article-card-pagination > ul li:last-child a {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.dot-article-card-pagination > ul li.current a {
+  background: #0f88eb;
+  border-color: #0f88eb;
+  color: #fff;
+}
+.dot-article-card-pagination > ul li.disabled a {
+  color: #aaa;
+}
+.dot-article-card-pagination > ul li.disabled a:hover {
+  cursor: not-allowed;
+}
+.dot-article-card-pagination > ul:after, 
+.dot-article-card-pagination > ul:before {
+  content: '';
+  display: table;
+}
+.dot-article-card-pagination > ul:after {
+  clear: both;
+}

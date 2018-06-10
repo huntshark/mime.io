@@ -1,0 +1,88 @@
+
+/* about page banner */
+.dot-about-page .dot-banner {
+  padding-top: 55px;
+  padding-bottom: 15px;
+  min-height: 48px;
+  color: rgba(255, 255, 255, 1);
+}
+@media (min-width: 768px) {
+  .dot-about-page .dot-banner {
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+}
+
+/* article about */
+.article-about {
+  padding-bottom: 91px;
+}
+
+.dot-mime {
+  margin-top: 32px;
+}
+@media (min-width: 768px) {
+  .dot-mime {
+    margin-top: 48px;
+  }
+}
+
+/* belief */
+.article-about .mime-belief h3 {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 1.25rem;
+}
+.article-about .mime-belief p {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+/* sns */
+.article-about .mime-sns {
+  margin-top: 32px;
+}
+@media (min-width: 768px) {
+  .article-about .mime-sns {
+    margin-top: 48px;
+  }
+}
+.article-about .mime-sns h3 {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 1.25rem;
+}
+.article-about .mime-sns ul{
+  padding: 0;
+}
+.article-about .mime-sns ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.article-about .mime-sns  ul li {
+  margin: 15px 0;
+}
+.article-about .mime-sns  ul li:first-child {
+  margin-left: 0;
+}
+.article-about .mime-sns  ul li span {
+  font-size: 0.875rem;
+  color: #666;
+}
+.article-about .mime-sns ul li a:hover,
+.article-about .mime-sns ul li a:active,
+.article-about .mime-sns ul li a:link,
+.article-about .mime-sns ul li a:visited {
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .article-about .mime-belief h3,
+  .article-about .mime-sns h3 {
+    font-size: 1.5rem;
+  }
+  .article-about .mime-belief p,
+  .article-about .mime-sns  ul li span {
+    font-size: 1rem;
+  }
+}

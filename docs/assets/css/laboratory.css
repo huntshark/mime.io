@@ -1,0 +1,86 @@
+
+/* laboratory page banner */
+.dot-laboratory-page .dot-banner {
+  padding-top: 55px;
+  padding-bottom: 15px;
+  min-height: 48px;
+  color: rgba(255, 255, 255, 1);
+}
+@media (min-width: 768px) {
+  .dot-laboratory-page .dot-banner {
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+}
+
+.article-laboratory {
+  padding-bottom: 91px;
+}
+
+.laboratory-repo {
+  margin-top: 32px;
+}
+@media (min-width: 768px) {
+  .laboratory-repo {
+    margin-top: 48px;
+  }
+}
+
+.laboratory-repo .dot-repo-card {
+  float: left;
+  width: 100%;
+  margin: 15px 0;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.laboratory-repo .dot-repo-card:hover,
+.laboratory-repo .dot-repo-card:active,
+.laboratory-repo .dot-repo-card:link,
+.laboratory-repo .dot-repo-card:visited {
+  text-decoration: none;
+}
+
+.laboratory-repo .dot-repo-card .dot-repo-name {
+  background: rgb(236, 240, 241, 0.3);
+  padding: 24px 0;
+}
+.laboratory-repo .dot-repo-card .dot-repo-name .dot-repo-title {
+  font-size: 1.25rem;
+  color: #0f88eb;
+}
+@media (min-width: 768px) {
+  .laboratory-repo .dot-repo-card {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+  .laboratory-repo .dot-repo-card .dot-repo-name {
+    padding: 42px 0;
+  }
+  .laboratory-repo .dot-repo-card .dot-repo-name .dot-repo-title {
+    font-size: 1.5rem;
+  }
+}
+
+.laboratory-repo .dot-repo-card .dot-repo-caption {
+  padding: 10px;
+}
+.laboratory-repo .dot-repo-card .dot-repo-caption .dot-repo-description {
+  padding: 9px 0px;
+  font-size: 1rem;
+  color: #333;
+}
+.laboratory-repo .dot-repo-card .dot-repo-caption .dot-repo-meta > span {
+  margin-right: 10px;
+  font-size: 0.75rem;
+  color: #666;
+}
+@media (min-width: 768px) {
+  .laboratory-repo .dot-repo-card .dot-repo-caption .dot-repo-description {
+    font-size: 1.125rem;
+  }
+  .laboratory-repo .dot-repo-card .dot-repo-caption .dot-repo-meta > span {
+    font-size: 0.875rem;
+  }
+}

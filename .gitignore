@@ -1,16 +1,9 @@
 _data
 _drafts
-_includes
 _layouts
+_includes
 _posts
 _site
-
-assets
-
-about.md
-
-404.html
-index.html
 
 _config.yml
 
@@ -19,5 +12,10 @@ LICENSE
 
 Gemfile
 Gemfile.lock
+
+assets
+
+*.html
+*.sh
 
 .jekyll-metadata

@@ -1,0 +1,18 @@
+
+/* article page banner */
+.dot-article-page .dot-banner {
+  padding-top: 55px;
+  padding-bottom: 15px;
+  min-height: 48px;
+  color: rgba(255, 255, 255, 1);
+}
+@media (min-width: 768px) {
+  .dot-article-page .dot-banner {
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+}
+
+.article {
+  padding-bottom: 91px;
+}

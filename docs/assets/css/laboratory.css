@@ -42,7 +42,7 @@
 }
 
 .laboratory-repo .dot-repo-card .dot-repo-name {
-  background: rgb(236, 240, 241, 0.3);
+  background: rgba(236, 240, 241, 0.3);
   padding: 24px 0;
 }
 .laboratory-repo .dot-repo-card .dot-repo-name .dot-repo-title {
